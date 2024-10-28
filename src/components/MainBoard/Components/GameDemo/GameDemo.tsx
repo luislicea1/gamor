@@ -2,7 +2,7 @@ import "./styles/styles.css";
 import GameLogoImage from "../../../../assets/images/pngimg.com - fortnite_PNG177.webp";
 import GameDarkLogoImage from "../../../../assets/images/pngimg.com - fortnite_PNG125.webp";
 import ExtraImageLight1 from "../../../../assets/images/pngimg.com - fortnite_PNG126.webp";
-import ExtraImageLight2 from "../../../../assets/images/pngimg.com - fortnite_PNG185.webp";
+import ExtraImageLight2 from "../../../../assets/images/pngegg.webp";
 import ExtraImageDark1 from "../../../../assets/images/pngimg.com - fortnite_PNG177.webp";
 import ExtraImageDark2 from "../../../../assets/images/pngimg.com - fortnite_PNG180.webp";
 import Clock from "../Clock/Clock";

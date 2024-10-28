@@ -36,3 +36,9 @@
   place-items: center;
   padding: 10px 0;
 }
+
+@media (max-width: 480px) {
+  .container-choose-game {
+    height: 100%;
+  }
+}

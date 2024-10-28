@@ -23,7 +23,7 @@ export default function CategorySeccion() {
         <CategoryCard
           name="View all"
           url="#"
-          subtitle="09"
+          subtitle="08"
           color="transparent"
         ></CategoryCard>
       </div>
