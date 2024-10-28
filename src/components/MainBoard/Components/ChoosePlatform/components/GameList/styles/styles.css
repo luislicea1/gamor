@@ -1,0 +1,47 @@
+.game-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+
+.games-list {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.bubble-number-info {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-content: center;
+}
+
+.game-info-users {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info-users-bubble1 {
+  top: 0;
+  left: 0;
+  padding: 5px;
+  border-radius: 50%;
+  z-index: 10;
+  background: var(--violet);
+}
+
+.game-info-users-bubble2 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  z-index: 5;
+  background: var(--orange);
+}

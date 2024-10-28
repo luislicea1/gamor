@@ -1,0 +1,89 @@
+.header-login-button {
+  border: none;
+  background: none;
+}
+
+button {
+  font-size: 1.1rem;
+}
+
+.header-create-accont-button {
+  padding: 20px 30px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.title-space-create-accont-button {
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+
+.search-now-button {
+  width: 90%;
+  padding: 20px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.light .search-now-button {
+  background: var(--dark-btn-account);
+  box-shadow: var(--shadow-smooth);
+  color: var(--light);
+}
+
+.dark .search-now-button {
+  background: var(--light);
+  box-shadow: var(--shadow-dark);
+  color: var(--dark);
+}
+
+.login-button,
+.create-account-button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 20px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-signup-button{
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.light .login-signup-button{
+  background: var(--light-div);
+  box-shadow: var(--shadow-dark);
+}
+
+.dark .login-signup-button{
+  background: var(--dark);
+  box-shadow: var(--shadow-div);
+  color: var(--light);
+}
+
+.light .login-button,
+.light .create-account-button {
+  background: var(--dark-btn-account);
+  box-shadow: var(--shadow-smooth);
+  color: var(--light);
+}
+
+.dark .login-button,
+.dark .create-account-button {
+  background: var(--light);
+  box-shadow: var(--shadow-dark);
+  color: var(--dark);
+}

@@ -1,0 +1,60 @@
+.category-card {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+
+  overflow: hidden;
+}
+.z-index-100 {
+  z-index: 100;
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 100%;
+  padding: 50px 40px;
+}
+.z-index-100 .category-barra {
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  color: white;
+}
+
+.category-card h2 {
+  font-weight: 400;
+  font-size: 15px;
+  z-index: 10;
+}
+.category-card h1 {
+  font-weight: 400;
+  font-size: 20px;
+  z-index: 10;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.category-card:hover .category-card-hover {
+  position: absolute;
+  width: 50%;
+  margin-left: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.category-card:hover .color-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fe884488;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  z-index: 90;
+}

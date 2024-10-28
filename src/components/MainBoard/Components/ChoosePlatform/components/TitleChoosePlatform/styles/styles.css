@@ -1,0 +1,17 @@
+.title-choose-platform-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.title-choose-platform-container span {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.title-choose-platform-container h2 {
+  font-weight: 700;
+  font-size: 1em;
+  margin-left: 10px;
+  margin-top: 5px;
+}

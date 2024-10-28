@@ -1,0 +1,19 @@
+.container-header-title {
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+.header-title {
+  position: relative;
+  padding: 0 20px;
+}
+
+.container-bubble {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}

@@ -1,0 +1,26 @@
+.container-bubble-game-player {
+  max-width: 80px;
+  max-height: 90px;
+  padding: 10px 0px 0 0px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.section-bubble-game-player {
+  animation: moveVertical 2s ease-in-out infinite;
+}
+.image-bubble-game-player {
+  width: 80px;
+  height: 80px;
+}
+
+@keyframes moveVertical {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
