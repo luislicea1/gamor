@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/styles.css";
 import { FaArrowRight } from "react-icons/fa6";
+import { useTheme } from "../../../../context/ThemeContext";
 
 interface CategoryCardProps {
   name: string;
@@ -16,6 +17,9 @@ const CategoryCard: React.FC<CategoryCardProps> = ({
   subtitle,
   color,
 }) => {
+
+  const { theme } = useTheme();
+
   return (
     <div className="category-card">
       <div className="z-index-100">
@@ -24,7 +28,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({
         </span>
         <h2>{subtitle}</h2>
         <h1>{name}</h1>
-        <FaArrowRight color="white"></FaArrowRight>
+        <FaArrowRight color={theme === "light"? "var(--dark)":"var(--light)"}></FaArrowRight>
       </div>
       <div className="color-hover"></div>
       <div

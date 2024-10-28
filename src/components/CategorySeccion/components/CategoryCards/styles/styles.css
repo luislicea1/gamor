@@ -58,3 +58,10 @@
   border-radius: 10px;
   z-index: 90;
 }
+
+.light .category-card:hover .color-hover {
+  background-color: #b444fe88;
+}
+.dark .category-card:hover .color-hover {
+  background-color: #fe884488;
+}

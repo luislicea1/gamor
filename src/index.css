@@ -4,7 +4,15 @@
   overflow: auto;
   height: 100px;
   scrollbar-width: none;
-  /*Firefox*/
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  overflow: -moz-hidden; 
+  overflow: hidden; 
 }
 
 :root::-webkit-scrollbar {
@@ -286,12 +294,16 @@ button:hover {
   -o-transform: scale(1.1);
 }
 
-.light .bubble {
+.light .bubble{
   background: var(--light-glass);
 }
 
 .dark .bubble {
   background: var(--dark-glass);
+}
+
+.bubble-game-demo{
+  background: #eaebf02d;
 }
 
 .dark .tabs-container input[type="radio"]:checked + label {

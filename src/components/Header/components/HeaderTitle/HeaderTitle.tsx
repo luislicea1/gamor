@@ -6,7 +6,7 @@ export default function HeaderTitle() {
     <div className="container-header-title">
       <div className="header-title">
         <div className="container-bubble">
-          <Bubble></Bubble>
+          <Bubble className="bubble"></Bubble>
         </div>
         <h1>Gamor</h1>
       </div>

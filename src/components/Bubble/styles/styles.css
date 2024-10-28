@@ -1,4 +1,5 @@
-.bubble {
+.bubble,
+.bubble-game-demo{
   min-width: 20px;
   min-height: 20px;
   border-radius: 50%;

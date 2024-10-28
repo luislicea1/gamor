@@ -38,7 +38,7 @@ export default function GameDemo() {
       <div className="game-clock">
         <div className="game-clock-center">
           <div className="game-clock-bubble-container">
-            <Bubble>
+            <Bubble className="bubble-game-demo">
               <FaUser size={24} color="white"></FaUser>
             </Bubble>
           </div>
